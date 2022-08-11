@@ -8,10 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
-}
+body{
+  background-color: #fffefe;
+  font-family: 'Montserrat', sans-serif;
+  }
 
 a {
   color: #2487ce;
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "montserrat", montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -663,11 +663,13 @@ section {
 /*--------------------------------------------------------------
 # About Video
 --------------------------------------------------------------*/
+
 .about-video {
   background-color: #2b4d60;
 }
 
-.about-video .content {
+.about-video .container {
+  color: #ffffff;
   font-size: 15px;
 }
 
@@ -771,6 +773,17 @@ section {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
+}
+.icon1 {
+  flex-direction: row;
+  justify-content: center;
+}
+.about-video1 .p {
+  font-size: 40px;
+  color: #2487ce;
+  position: absolute;
+  left: 0;
+  top: -2px;
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -906,9 +919,9 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgb(169, 13, 13);
+  background-color: rgb(166, 240, 100);
   opacity: 1;
-  border: 1px solid #d515c8;
+  border: 1px solid #000000;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
@@ -1309,8 +1322,11 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team .container{
+content: flex center;
+}
 .team .member {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   overflow: hidden;
   text-align: center;
   border-radius: 4px;
@@ -1388,12 +1404,13 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
+  justify-content: ;
   padding: 40px 20px;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background: #fefefe;
+  background: #ffffff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
@@ -1792,13 +1809,13 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f8fbfe;
+  background: #3098ff;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #3098ff;
 }
 
 #footer .footer-top .footer-contact {
@@ -1817,7 +1834,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "montserrat", sans-serif;
   color: #777777;
 }
 
